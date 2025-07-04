@@ -67,28 +67,20 @@ You can view the contract on [Sepolia Etherscan](https://sepolia.etherscan.io/ad
 
 ## 📌 To-Do (Future Enhancements)
 
- - NFT per individual movie
+- NFT per individual movie
 
 ---
 
 ## 🙋‍♂️ Author
 
-Abaan Ahmed
-Computer Engineering Student, American University in Dubai
-AI + Blockchain Intern at GameSphere
+- **Abaan Ahmed**
+  - Computer Engineering Student, American University in Dubai
+  - AI + Blockchain Intern at GameSphere
 
 ---
 
 ## 📃 License
 
 This project's Smart Contract is licensed under the MIT License.
-
----
-
-## 📝 Acknowledgements
-
-- OpenZeppelin – ERC-721 Contracts
-- ethers.js – Wallet & Contract Interaction
-- Pinata – IPFS Hosting
 
 ---
