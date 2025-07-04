@@ -1,12 +1,94 @@
-# React + Vite
+# 🎬 Netflix Clone with Blockchain-Based Subscription (NFT Powered)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A decentralized Netflix-like platform where users can subscribe using NFTs. Built using React (Vite), Ethereum Smart Contracts (Solidity), and MetaMask wallet integration.
 
-Currently, two official plugins are available:
+> ✅ Deployed and tested on the Sepolia Testnet  
+> 🧪 Minted NFTs act as subscription passes for weekly, monthly, or yearly access
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Web3 Login with MetaMask**
+- **Time-based Subscription NFTs**
+  - Weekly, Monthly, or Yearly
+- **ERC-721 Smart Contract**
+  - Written in Solidity
+- **IPFS-based Metadata Hosting**
+- **Frontend built with React + Vite**
+  - Clean and responsive UI
+  - Netflix-like design with user-friendly flow
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer          | Technology                     |
+|----------------|--------------------------------|
+| Frontend       | React.js (Vite)                |
+| Wallet Support | MetaMask + ethers.js           |
+| Blockchain     | Solidity (ERC-721)             |
+| Backend        | No backend (fully decentralized) |
+| Storage        | IPFS via Pinata                |
+| Network        | Ethereum Sepolia Testnet       |
+
+---
+
+## 📸 Screenshots
+
+> ![Login Page](./screenshots/login.png)
+> ![Subscription Options](./screenshots/subscription.png)
+> ![Homepage](./screenshots/homepage.png)
+
+---
+
+## 🔗 Smart Contract Details
+
+- **Contract Name:** `SubscriptionNFT`
+- **Network:** Ethereum Sepolia
+- **Functions:**
+  - `mintWeekly()`, `mintMonthly()`, `mintYearly()`
+  - `isSubscribed(address)`
+  - Admin-only `burnExpired()` (optional)
+
+You can view the contract on [Sepolia Etherscan](https://sepolia.etherscan.io/address/0x717a6a2732a98cd4bf94fcd80b981a80b58719bd)
+
+---
+
+## 🧪 How to Test
+
+1. Connect MetaMask (Sepolia network)
+2. Click **Buy NFT Pass**
+3. Choose a plan and approve transaction
+4. On success, go back and click **Sign In**
+5. If NFT is valid → you get access to content
+
+---
+
+## 📌 To-Do (Future Enhancements)
+
+ - NFT per individual movie
+
+---
+
+## 🙋‍♂️ Author
+
+Abaan Ahmed
+Computer Engineering Student, American University in Dubai
+AI + Blockchain Intern at GameSphere
+
+---
+
+## 📃 License
+
+This project's Smart Contract is licensed under the MIT License.
+
+---
+
+## 📝 Acknowledgements
+
+- OpenZeppelin – ERC-721 Contracts
+- ethers.js – Wallet & Contract Interaction
+- Pinata – IPFS Hosting
+
+---
