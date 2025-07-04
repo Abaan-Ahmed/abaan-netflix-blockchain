@@ -2,6 +2,8 @@ import { ethers } from "ethers";
 import { CONTRACT_ADDRESS, CONTRACT_ABI } from "../constants/contract";
 
 export const connectAndCheckSubscription = async () => {
+
+  // Check for Metamask on Browswer
   if (!window.ethereum) {
     alert("MetaMask is not installed");
     return { success: false, message: "MetaMask not found" };
